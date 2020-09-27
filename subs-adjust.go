@@ -60,7 +60,6 @@ func modifySubs(in_file string, out_file string, seconds float64) error {
 
 	ss := strings.Split(string(data), "\n")
 	for _, s := range ss {
-		_ = s
 
 		if r.MatchString(s) {
 
